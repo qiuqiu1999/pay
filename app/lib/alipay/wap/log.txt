@@ -1,0 +1,43 @@
+2020-05-10 14:58:37  {"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"2020510225832608","total_amount":"0.01","timeout_express":"1m"}
+2020-05-10 14:58:37  response: '<form id=\'alipaysubmit\' name=\'alipaysubmit\' action=\'https://openapi.alipaydev.com/gateway.do?charset=UTF-8\' method=\'POST\'><input type=\'hidden\' name=\'biz_content\' value=\'{"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"2020510225832608","total_amount":"0.01","timeout_express":"1m"}\'/><input type=\'hidden\' name=\'app_id\' value=\'2016092900621176\'/><input type=\'hidden\' name=\'version\' value=\'1.0\'/><input type=\'hidden\' name=\'format\' value=\'json\'/><input type=\'hidden\' name=\'sign_type\' value=\'RSA2\'/><input type=\'hidden\' name=\'method\' value=\'alipay.trade.wap.pay\'/><input type=\'hidden\' name=\'timestamp\' value=\'2020-05-10 14:58:37\'/><input type=\'hidden\' name=\'alipay_sdk\' value=\'alipay-sdk-php-20180705\'/><input type=\'hidden\' name=\'notify_url\' value=\'http://外网可访问网关地址/alipay.trade.page.pay-PHP-UTF-8/notify_url.php\'/><input type=\'hidden\' name=\'return_url\' value=\'https://www.baidu.com\'/><input type=\'hidden\' name=\'charset\' value=\'UTF-8\'/><input type=\'hidden\' name=\'sign\' value=\'Zhh3bGHUVbFN2CraQLvcRdeGiXdXCHyJkO6B8bKsVHyQZaLU2bOvSgeZwtzffZ2OmPwGWYfYUANrO073pWGGZusIo5ksJn3qx35XLyc997yRISpTe0uB+cR+GcuekflCuKi3AqFNW4htdLtrlnhEJ8V2LDqTcaqDQaK2CgJx5Mg2O+pUZAA2uJbNWiYnqLzaiqdkvepYsN7QWMz4anFO144tnC0mwcxzoZu0vFtB6LiqcI6FFY6Y5CuiqDO9HuPuP+Cb3ky5g8PQ09j7ypH4/vGpXwaIZplgjZNJn7xaUr6fBnUuvnoYvDJjQOq58dKqvEkvukQN8NlA5y0o6+zPRQ==\'/><input type=\'submit\' value=\'ok\' style=\'display:none;\'\'></form><script>document.forms[\'alipaysubmit\'].submit();</script>'
+2020-05-10 15:00:05  {"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"2020510225853809","total_amount":"0.01","timeout_express":"1m"}
+2020-05-10 15:00:05  response: '<form id=\'alipaysubmit\' name=\'alipaysubmit\' action=\'https://openapi.alipaydev.com/gateway.do?charset=UTF-8\' method=\'POST\'><input type=\'hidden\' name=\'biz_content\' value=\'{"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"2020510225853809","total_amount":"0.01","timeout_express":"1m"}\'/><input type=\'hidden\' name=\'app_id\' value=\'2016092900621176\'/><input type=\'hidden\' name=\'version\' value=\'1.0\'/><input type=\'hidden\' name=\'format\' value=\'json\'/><input type=\'hidden\' name=\'sign_type\' value=\'RSA2\'/><input type=\'hidden\' name=\'method\' value=\'alipay.trade.wap.pay\'/><input type=\'hidden\' name=\'timestamp\' value=\'2020-05-10 15:00:05\'/><input type=\'hidden\' name=\'alipay_sdk\' value=\'alipay-sdk-php-20180705\'/><input type=\'hidden\' name=\'notify_url\' value=\'http://外网可访问网关地址/alipay.trade.page.pay-PHP-UTF-8/notify_url.php\'/><input type=\'hidden\' name=\'return_url\' value=\'https://www.baidu.com\'/><input type=\'hidden\' name=\'charset\' value=\'UTF-8\'/><input type=\'hidden\' name=\'sign\' value=\'FZ+oz7iaSDdii4TdC2x+Oh1At95r5qLiso7q+23sjlhiK6pDwV1MS4u3AQ792BYVkZDLeFZBd+04KVSQwyNXGln3/lb9664HNcuu+AaxpdvsD3ULQgbWknKT8OhQNqsH2uVPzX9eYR7KEDXKczzbNDkhH/V3gXP87w2BnLq39+PKCU692tqBTfjgExHh9Sedk90Ftsn0nZzmngHCG/cJ0s+kqs2oh4ujLDkgAhuUNWKe3iBREaEHpnmQM5GIc0XDbNMOnSbtgPu9vvmrrI5S+XfVbklFCMTSDQLdzV8owNYL7zfDGtd4e7IF+sdtwN59HsKX6yDjUm1Jf1QBgwwWkA==\'/><input type=\'submit\' value=\'ok\' style=\'display:none;\'\'></form><script>document.forms[\'alipaysubmit\'].submit();</script>'
+2020-05-10 15:02:08  {"trade_no":"","out_trade_no":"2020510225952428"}
+2020-05-10 15:02:08  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_NOT_EXIST',
+     'sub_msg' => '交易不存在',
+     'buyer_pay_amount' => '0.00',
+     'invoice_amount' => '0.00',
+     'out_trade_no' => '2020510225952428',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+  )),
+   'sign' => 'odo1DAZPidqEQYFMsIeK/kmLVDHLfAcI6U2n0QJtfgRNBtvKi8RfLTZM0oQD2RyoEN6Oh2o94NEnkIWqOFPkDayroiY/pKe4WOi5DxCoAgi5N0geNCt8UfrEIbDyIVNnEW7I2NUmAjZTP8K9ClVI9QTV6GGCv7yyIeBBqhxcP0R0/MYNsU3j8ZAxE/1JNdTWVH9ou0dcV8ltgMNg7dQG3rimBp5K4ZOAnTxNo300QfGrgYUre6uM9z9cN5EXmFNeXCMQtqx/xqGpsqK9nPH/3erWDfPElhMK8m8VPO0p8E6Xe+Wht2hRvPUGE1OUyBcmpZbdfHJ3167+mXxpaCSToA==',
+))
+2020-05-10 15:02:20  {"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"20205102317998","total_amount":"0.01","timeout_express":"1m"}
+2020-05-10 15:02:20  response: '<form id=\'alipaysubmit\' name=\'alipaysubmit\' action=\'https://openapi.alipaydev.com/gateway.do?charset=UTF-8\' method=\'POST\'><input type=\'hidden\' name=\'biz_content\' value=\'{"productCode":"QUICK_WAP_WAY","body":"购买测试商品0.01元","subject":"测试","out_trade_no":"20205102317998","total_amount":"0.01","timeout_express":"1m"}\'/><input type=\'hidden\' name=\'app_id\' value=\'2016092900621176\'/><input type=\'hidden\' name=\'version\' value=\'1.0\'/><input type=\'hidden\' name=\'format\' value=\'json\'/><input type=\'hidden\' name=\'sign_type\' value=\'RSA2\'/><input type=\'hidden\' name=\'method\' value=\'alipay.trade.wap.pay\'/><input type=\'hidden\' name=\'timestamp\' value=\'2020-05-10 15:02:20\'/><input type=\'hidden\' name=\'alipay_sdk\' value=\'alipay-sdk-php-20180705\'/><input type=\'hidden\' name=\'notify_url\' value=\'http://外网可访问网关地址/alipay.trade.page.pay-PHP-UTF-8/notify_url.php\'/><input type=\'hidden\' name=\'return_url\' value=\'https://www.baidu.com\'/><input type=\'hidden\' name=\'charset\' value=\'UTF-8\'/><input type=\'hidden\' name=\'sign\' value=\'HJmwjJO6LjULOpDMQmfx4xYCxXkiC2G+4Nvpcse3iQysuwodZVk1EHGdtUgiMM+C30IiihtaXxn4pdBOoFH6v68OuHsie5SxLw3Tc8JbFGSxt6rCkobhmT96r4GljtUCa6xxX+tIAsMvuoNTCPYCRkrRHCkYftEKhCRG+BJlxPNLSaEFmVZNFCkjJTBZcyFhVwi5YVD/Li7kNySgJkCgCzGPV3snhu87Bg1bFbAoujk5yM6zAorkdRQ6/pE7RAZl6hc4Yjj45akPkJR86dVb5K+acU11tuvUsg8ZRpWTDwA8Oq5BqUt+UMOP6g43XWFJ5yW0XsO2kgZGYOeW35I3lA==\'/><input type=\'submit\' value=\'ok\' style=\'display:none;\'\'></form><script>document.forms[\'alipaysubmit\'].submit();</script>'
+2020-05-10 15:03:41  {"trade_no":"","out_trade_no":"20205102317998"}
+2020-05-10 15:03:41  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => 'ncn***@sandbox.com',
+     'buyer_pay_amount' => '0.00',
+     'buyer_user_id' => '2088102178920183',
+     'buyer_user_type' => 'PRIVATE',
+     'invoice_amount' => '0.00',
+     'out_trade_no' => '20205102317998',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.00',
+     'send_pay_date' => '2020-05-10 23:01:42',
+     'total_amount' => '0.01',
+     'trade_no' => '2020051022001420180500779373',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'i636qgxVXFMoViX2VY1wWYX/sBAF8hG5lx4oMV5RUG1S3ok5Ytj2kK0AomS3I8vl3PpYUV/Pq21UPeT4reaUGwgyNfNDv6l1S9CCqf+7QQOHeFNyU/C5s8D+FdLBEp+mdN1rHHUfz17a9UCcXgigK6ClMCx2W1XmUdf6CL2TaHW/psLxAkg1WphI4v2YqOgpFGfD2v9Rpune3tFexS9u1q8yyQniA6gCeQDDYJqWgeRYj7L0D+IgbLocnKzhEdN26vNFNjZmS7B7NwfPhHGa08Fwi1HnrwcHfX6Z5JM8A5OtgZH10hTBCqQJJ2IrFj8mDbgZVmPc+bvmvBX8LmKyyA==',
+))
